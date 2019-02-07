@@ -14,7 +14,7 @@ steps:
   displayName: 'Running XCTest/XCUITest'
   inputs:
     actions: 'test'
-    scheme: '$(scheme)'
+    scheme: 'TimBurtons'
     sdk: 'iphonesimulator'
     configuration: '$(configuration)'
     xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
