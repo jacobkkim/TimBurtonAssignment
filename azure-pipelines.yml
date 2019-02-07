@@ -10,6 +10,24 @@ pool:
   vmImage: 'macOS-10.13'
 
 steps:
+- script: /usr/local/bin/carthage update --platform ios
+  displayName: 'Carthage installation'
+- task: Xcode@5
+  displayName: 'Running XCTest/XCUITest'
+  inputs:
+    actions: 'test'
+    scheme: '$(scheme)'
+    sdk: 'iphonesimulator'
+    configuration: '$(configuration)'
+    xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
+    packageApp: false
+    xcWorkspacePath: 'Tim Burtons.xcodeproj'
+    destinationSimulators: 'iPhone 10'
+    destinationTypeOption: 'simulators'
+    destinationPlatformOption: 'iOS'
+    signingOption: "auto"
+    useXcpretty: true
+    
 - task: Xcode@5
   inputs:
     actions: 'build'
