@@ -135,7 +135,7 @@
 		BD16B6B92045B7A400DDFBE7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BD4AFAA12048D14200F796B1 /* ProductListServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListServiceTests.swift; sourceTree = "<group>"; };
 		BD4AFAA32048D2BC00F796B1 /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
-		BD6DEC8F2044F129000543F5 /* Tim Burtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tim Burtons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6DEC8F2044F129000543F5 /* TimBurtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimBurtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6DEC922044F129000543F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD6DEC972044F129000543F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD6DEC992044F129000543F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -290,7 +290,7 @@
 		BD6DEC902044F129000543F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD6DEC8F2044F129000543F5 /* Tim Burtons.app */,
+				BD6DEC8F2044F129000543F5 /* TimBurtons.app */,
 				BD6DECA32044F129000543F5 /* Tim BurtonsTests.xctest */,
 				BDF8274C20468E7C001DDBAC /* Tim Burtons_AppStore.app */,
 			);
@@ -584,9 +584,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD6DEC8E2044F129000543F5 /* Tim Burtons */ = {
+		BD6DEC8E2044F129000543F5 /* TimBurtons */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD6DECAC2044F129000543F5 /* Build configuration list for PBXNativeTarget "Tim Burtons" */;
+			buildConfigurationList = BD6DECAC2044F129000543F5 /* Build configuration list for PBXNativeTarget "TimBurtons" */;
 			buildPhases = (
 				BD6DEC8B2044F129000543F5 /* Sources */,
 				BD6DEC8C2044F129000543F5 /* Frameworks */,
@@ -596,9 +596,9 @@
 			);
 			dependencies = (
 			);
-			name = "Tim Burtons";
+			name = TimBurtons;
 			productName = "Tim Burtons";
-			productReference = BD6DEC8F2044F129000543F5 /* Tim Burtons.app */;
+			productReference = BD6DEC8F2044F129000543F5 /* TimBurtons.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BD6DECA22044F129000543F5 /* Tim BurtonsTests */ = {
@@ -673,7 +673,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD6DEC8E2044F129000543F5 /* Tim Burtons */,
+				BD6DEC8E2044F129000543F5 /* TimBurtons */,
 				BD6DECA22044F129000543F5 /* Tim BurtonsTests */,
 				BDF8271E20468E7C001DDBAC /* Tim Burtons_AppStore */,
 			);
@@ -831,7 +831,7 @@
 /* Begin PBXTargetDependency section */
 		BD6DECA52044F129000543F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BD6DEC8E2044F129000543F5 /* Tim Burtons */;
+			target = BD6DEC8E2044F129000543F5 /* TimBurtons */;
 			targetProxy = BD6DECA42044F129000543F5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1173,7 +1173,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD6DECAC2044F129000543F5 /* Build configuration list for PBXNativeTarget "Tim Burtons" */ = {
+		BD6DECAC2044F129000543F5 /* Build configuration list for PBXNativeTarget "TimBurtons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD6DECAD2044F129000543F5 /* Debug */,
