@@ -10,10 +10,10 @@ pool:
   vmImage: 'macOS-10.13'
 
 steps:
-- task: Xcode@9
+- task: Xcode@10
   inputs:
     actions: 'build'
-    scheme: 'Tim Burtons'
+    scheme: 'TimBurtons'
     sdk: 'iphoneos'
     configuration: 'Release'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
