@@ -141,7 +141,7 @@
 		BD6DEC992044F129000543F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD6DEC9C2044F129000543F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD6DEC9E2044F129000543F5 /* TimBurton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimBurton-Info.plist"; sourceTree = "<group>"; };
-		BD6DECA32044F129000543F5 /* Tim BurtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tim BurtonsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6DECA32044F129000543F5 /* TimBurtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimBurtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6DECA92044F129000543F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD6DECB62044F26C000543F5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		BD6DECB920450107000543F5 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
@@ -291,7 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				BD6DEC8F2044F129000543F5 /* TimBurtons.app */,
-				BD6DECA32044F129000543F5 /* Tim BurtonsTests.xctest */,
+				BD6DECA32044F129000543F5 /* TimBurtonsTests.xctest */,
 				BDF8274C20468E7C001DDBAC /* Tim Burtons_AppStore.app */,
 			);
 			name = Products;
@@ -601,9 +601,9 @@
 			productReference = BD6DEC8F2044F129000543F5 /* TimBurtons.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BD6DECA22044F129000543F5 /* Tim BurtonsTests */ = {
+		BD6DECA22044F129000543F5 /* TimBurtonsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD6DECAF2044F129000543F5 /* Build configuration list for PBXNativeTarget "Tim BurtonsTests" */;
+			buildConfigurationList = BD6DECAF2044F129000543F5 /* Build configuration list for PBXNativeTarget "TimBurtonsTests" */;
 			buildPhases = (
 				BD6DEC9F2044F129000543F5 /* Sources */,
 				BD6DECA02044F129000543F5 /* Frameworks */,
@@ -614,9 +614,9 @@
 			dependencies = (
 				BD6DECA52044F129000543F5 /* PBXTargetDependency */,
 			);
-			name = "Tim BurtonsTests";
+			name = TimBurtonsTests;
 			productName = "Tim BurtonsTests";
-			productReference = BD6DECA32044F129000543F5 /* Tim BurtonsTests.xctest */;
+			productReference = BD6DECA32044F129000543F5 /* TimBurtonsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		BDF8271E20468E7C001DDBAC /* Tim Burtons_AppStore */ = {
@@ -674,7 +674,7 @@
 			projectRoot = "";
 			targets = (
 				BD6DEC8E2044F129000543F5 /* TimBurtons */,
-				BD6DECA22044F129000543F5 /* Tim BurtonsTests */,
+				BD6DECA22044F129000543F5 /* TimBurtonsTests */,
 				BDF8271E20468E7C001DDBAC /* Tim Burtons_AppStore */,
 			);
 		};
@@ -1183,7 +1183,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD6DECAF2044F129000543F5 /* Build configuration list for PBXNativeTarget "Tim BurtonsTests" */ = {
+		BD6DECAF2044F129000543F5 /* Build configuration list for PBXNativeTarget "TimBurtonsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD6DECB02044F129000543F5 /* Debug */,
