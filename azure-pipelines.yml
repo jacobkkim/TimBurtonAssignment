@@ -11,22 +11,6 @@ pool:
 
 steps:
 - task: Xcode@5
-  displayName: 'Running XCTest/XCUITest'
-  inputs:
-    actions: 'test'
-    scheme: 'TimBurtonsTests'
-    sdk: 'iphonesimulator'
-    configuration: '$(configuration)'
-    xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
-    packageApp: false
-    xcWorkspacePath: 'Tim Burtons.xcodeproj'
-    destinationSimulators: 'iPhone 10'
-    destinationTypeOption: 'simulators'
-    destinationPlatformOption: 'iOS'
-    signingOption: "auto"
-    useXcpretty: true
-    
-- task: Xcode@5
   inputs:
     actions: 'build'
     scheme: 'TimBurtons'
